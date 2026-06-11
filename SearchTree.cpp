@@ -157,4 +157,16 @@ int main()
             break;
         }
 
+        case '2':
+        {
+            obj.inorder(obj.root);
+            break;
+        }
+
+        case '3':
+        {
+            obj.preorder(obj.root);
+            break;
+        }
+
         
